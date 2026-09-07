@@ -32,7 +32,7 @@ data:
 
   # PLACEHOLDER — troque pelo output "sqs_queue_url" do Terraform
   # depois do `terraform apply` (Passo 3 do README.md).
-  AWS_SQS_URL: "REPLACE_WITH_TERRAFORM_OUTPUT_sqs_queue_url"
+  AWS_SQS_URL: "https://sqs.us-east-1.amazonaws.com/676861816305/togglemaster-events"
 
   # Nome da tabela é FIXO (definido assim no módulo terraform/modules/dynamodb),
   # por isso já vem certo, sem precisar trocar.
