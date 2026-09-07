@@ -33,7 +33,7 @@ spec:
           # inteira automaticamente (via `sed`) toda vez que builda
           # uma imagem nova; SEU_ACCOUNT_ID é só o valor inicial
           # antes do primeiro push.
-          image: SEU_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/togglemaster/auth-service:latest
+          image: 676861816305.dkr.ecr.us-east-1.amazonaws.com/togglemaster/auth-service:4e5ee94edc0e659ab1367a411b0b8f8ec9d2c3a2
 
           ports:
             - containerPort: 8001 # porta que o processo Go escuta DENTRO do container (definida no main.go do serviço)
