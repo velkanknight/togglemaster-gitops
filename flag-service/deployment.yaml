@@ -25,7 +25,7 @@ spec:
       containers:
         - name: flag-service
           # Atualizado automaticamente pela pipeline (.github/workflows/flag-service.yml) a cada push.
-          image: SEU_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/togglemaster/flag-service:latest
+          image: 676861816305.dkr.ecr.us-east-1.amazonaws.com/togglemaster/flag-service:161ef6585c4df44d1ba253b279ae1aa8accee10e
           ports:
             - containerPort: 8002 # porta que o gunicorn/Flask escuta (ver flag-service/Dockerfile)
           env:
